@@ -31,3 +31,21 @@ In this kata you'll be given two JSON files.
 - By having a sorted array of boxes, the number of iterations through the boxes array is minimised.
 - PHP's native array functions are utilized to reduce nesting loops for improved performance at scale.
 - Due to time constraints, minimal tests have been written for the code.
+
+```
+/usr/bin/php /home/revalgovender/PhpstormProjects/php-code-kata/main.php
+Sum of the CO2 footprint per box for every order in the file: 1700kg
+Sum of the CO2 footprint if every order would be in the largest box we have: 3000kg
+Have we saved 1000kg of CO2? Yes
+Orders with assigned boxes:
+Order 1 has been matched with BoxHelper: PK-MED-01
+Order 2 has been matched with BoxHelper: PK-SML-02
+Order 3 has been matched with BoxHelper: PK-MED-01
+Order 4 has been matched with BoxHelper: PK-LRG-03
+Order 5 has been matched with BoxHelper: PK-SML-02
+Order 6 has been matched with BoxHelper: PK-SML-02
+Order 7 has been matched with BoxHelper: PK-MED-01
+Order 8 has been matched with BoxHelper: PK-SML-02
+Order 9 has been matched with BoxHelper: PK-SML-02
+Order 10 has been matched with BoxHelper: PK-LRG-03
+```

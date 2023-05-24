@@ -53,6 +53,8 @@ echo "\n";
 echo "Have we saved 1000kg of CO2? " . $co2SavingAnswer;
 echo "\n";
 
+echo "Orders with assigned boxes:";
+echo "\n";
 foreach ($orders as $order) {
     echo "Order " . $order['id'] . " has been matched with" . " BoxHelper: " . $order['box'];
     echo "\n";
