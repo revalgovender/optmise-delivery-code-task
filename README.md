@@ -1,4 +1,4 @@
-# PHP Script Code Task (4hr time limit)
+# PHP Script Code Task (3hr time limit)
 
 ## Table Of Contents
 1. [The Problem](#the-problem)
@@ -25,3 +25,9 @@ In this kata you'll be given two JSON files.
 2. Tests are not a hard requirement but are strongly encouraged.
 
 ## My Solution
+- The script reads the JSON files and converts the data into multidimensional arrays.
+- It calculates the volume of each box and sorts the array of boxes based on volume.
+- A loop is used to process each order, calculating the order's volume and assigning the smallest box available.
+- By having a sorted array of boxes, the number of iterations through the boxes array is minimised.
+- PHP's native array functions are utilized to reduce nesting loops for improved performance at scale.
+- Due to time constraints, minimal tests have been written for the code.
