@@ -1,6 +1,6 @@
 # PHP Script Code Task (3hr time limit)
 
-## Table Of Contents
+## Contents
 1. [The Problem](#the-problem)
 2. [Expected Output](#expected-output)
 3. [The Rules](#the-rules)
